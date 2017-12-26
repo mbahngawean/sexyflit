@@ -1,0 +1,1 @@
+var INDEX=0,SHOW_TIME=3000,FADE_TIME=500;LENGTH=0;$(document).ready(function(){var LENGTH=$("div#left div.intro").hide().length;if(LENGTH>0){var index=parseInt(Math.random()*LENGTH);$($("div#left div.intro").get(index)).show()}function intro(index){return $($("div#left div.intro").get(index))}});
